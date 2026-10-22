@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>定額レシート - サブスク管理</title>
-<meta name="description" content="サブスクと固定費を登録するだけ。年間・毎月・1日あたりの合計がひと目で分かる、iPhone向けの節約アプリです。データはiPhoneの中だけ。ログイン・広告なし。">
+<meta name="description" content="サブスクと固定費を入れるだけ。年間・毎月・1日あたりの合計がひと目で分かる、iPhone向けの節約アプリです。データはiPhoneの中だけ。ログイン・広告なし。">
 <meta name="theme-color" content="#B8501A">
 <link rel="icon" href="assets/favicon-64.png" sizes="64x64" type="image/png">
 <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
@@ -16,8 +16,8 @@
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="index.html">
-      <img class="brand-mark" src="assets/icon-header.png" width="32" height="32" alt="">
-      <span class="brand-name">定額レシート</span>
+      <img src="assets/icon-header.png" width="32" height="32" alt="">
+      <span>定額レシート</span>
     </a>
     <nav class="site-nav" aria-label="サイト内">
       <a href="index.html" aria-current="page">ホーム</a>
@@ -29,126 +29,166 @@
 
 <main>
 
-  <section class="hero">
+  <div class="hero-band">
+    <section class="hero">
+      <div class="wrap hero-grid">
+
+        <div class="hero-copy">
+          <p class="hero-kicker">サブスクと固定費を管理する iPhone アプリ「定額レシート」</p>
+          <h1>出るお金と、<br>浮くお金を、<br>一冊に。</h1>
+          <hr class="hero-rule">
+          <p class="hero-sub">サブスクと<wbr>固定費を<wbr>入れるだけ。<wbr>ジムを<wbr>やめて、<wbr>年<b class="mono">¥39,336</b>浮いた。</p>
+          <p class="hero-storenote">App Store で近日公開</p>
+          <p class="hero-footnote"><span class="dash" aria-hidden="true"></span>データは iPhone の中だけ。サーバーには送りません。</p>
+        </div>
+
+        <div class="hero-visual">
+          <div class="frag-crop">
+            <div class="receipt-frag">
+              <p class="frag-label">10月の記録</p>
+              <div class="frag-line"><span>動画配信</span><span class="mono">¥1,590</span></div>
+              <div class="frag-line frag-cancel"><span>ジム</span><span class="mono">¥3,278</span></div>
+              <div class="frag-line"><span>クラウド</span><span class="mono">¥540</span></div>
+              <div class="frag-line"><span>携帯</span><span class="mono">¥2,970</span></div>
+              <div class="frag-total"><span>今月の合計</span><b class="mono">¥5,100</b></div>
+            </div>
+          </div>
+          <div class="seal">
+            <span class="seal-ring" aria-hidden="true"></span>
+            <img src="assets/bird-happy.png" width="480" height="489" alt="">
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <section class="section no-border" id="features">
     <div class="wrap">
-      <div class="hero-receipt">
-        <img class="hero-mascot" src="assets/bird-happy.png" width="480" height="489" alt="">
-        <p class="hero-eyebrow">iPhone 向け サブスク管理アプリ</p>
-        <h1>出るお金と、節約できるお金が、ひと目で分かる。</h1>
-        <p class="hero-sub">使いたいプランも、はっきりする。</p>
-        <div class="hero-links">
-          <span class="store-soon">App Store で近日公開</span>
-          <a href="support.html">サポート</a>
-          <a href="privacy.html">プライバシーポリシー</a>
+      <p class="section-kicker">できること</p>
+
+      <div class="feat-area">
+        <div>
+
+          <div class="feat-row">
+            <span class="feat-num" aria-hidden="true">1</span>
+            <div class="feat-body">
+              <h2>ムダ診断</h2>
+              <p>使ってない<wbr>サブスクが<wbr>見つかる。<wbr>1件ずつ<wbr>「先月<wbr>使った？」に<wbr>答えるだけ。</p>
+              <p>やめる<wbr>物に<wbr>チェックを<wbr>入れると、<wbr>やめたら<wbr>年間いくら<wbr>浮くかが<wbr>レシートで<wbr>分かります。<wbr>何度でも<wbr>無料です。</p>
+            </div>
+          </div>
+
+          <div class="feat-row">
+            <span class="feat-num" aria-hidden="true">2</span>
+            <div class="feat-body">
+              <h2>給料日モード</h2>
+              <p class="only-pc">給料日までに、<wbr>口座に<wbr>入れておく額を<wbr>表示します。<wbr>土日祝なら<wbr>前の<wbr>平日で<wbr>計算し、<wbr>カードの<wbr>締め日・<wbr>引き落とし日も<wbr>まとめて<wbr>計算します。</p>
+              <p class="only-pc">カレンダーでは<wbr>今月・<wbr>来月・<wbr>再来月の<wbr>支払いも、<wbr>無料で<wbr>確認できます。</p>
+              <p class="only-mobile">給料日までに、<wbr>口座に<wbr>入れておく額を<wbr>表示。<wbr>カードの<wbr>締め日・<wbr>引き落とし日も<wbr>まとめて<wbr>計算します。<wbr>カレンダーの<wbr>今月・<wbr>来月・<wbr>再来月は<wbr>無料で<wbr>見られます。</p>
+            </div>
+          </div>
+
+          <div class="feat-row">
+            <span class="feat-num" aria-hidden="true">3</span>
+            <div class="feat-body">
+              <h2>解約の道案内と解約レシート</h2>
+              <p class="only-pc">やめると<wbr>決めたら、<wbr>サービスごとの<wbr>手順と<wbr>公式の<wbr>解約ページを<wbr>案内します。<wbr>「解約した！」を<wbr>押すと、<wbr>解約レシートが<wbr>できます。</p>
+              <p class="only-mobile">サービスごとの<wbr>手順と<wbr>公式ページを<wbr>案内。<wbr>「解約した！」を<wbr>押すと、<wbr>解約レシートが<wbr>できます。</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="chip-panel">
+          <p class="section-kicker">ムダ診断は、こう聞くだけ</p>
+          <div class="chip-list">
+            <span class="chip">よく使った</span>
+            <span class="chip">たまに</span>
+            <span class="chip is-on">使ってない</span>
+          </div>
+          <p class="chip-caption">1件ずつ<wbr>答えると、<wbr>やめる<wbr>物と<wbr>浮く<wbr>額が<wbr>分かります。</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="features">
+  <section class="section" id="how">
     <div class="wrap">
-      <div class="section-head">
-        <h2>入れるだけで、年間いくらか分かる</h2>
-        <p class="section-lede">レシートのように、一行ずつ積み上げます。</p>
-      </div>
-      <div class="receipt-list">
+      <p class="section-kicker">使い方</p>
+      <div class="steps">
 
-        <div class="receipt-item">
-          <span class="receipt-no" aria-hidden="true">1</span>
-          <div>
-            <h3>876件のサービスから選ぶだけ</h3>
-            <p>動画・音楽・ジム・携帯・電気代など、一覧から選んで金額を入れるだけ。見つからない物は自分で追加できます。</p>
-            <p>年間・毎月・1日あたりの合計を1枚のカードで表示。「すべて｜サブスク｜固定費」で切り替えられます。</p>
-          </div>
+        <div class="step">
+          <span class="step-num" aria-hidden="true">1</span>
+          <h2>登録する</h2>
+          <p>876件の<wbr>サービスから<wbr>選ぶか、<wbr>自分で<wbr>追加します。</p>
         </div>
 
-        <div class="receipt-item">
-          <span class="receipt-no" aria-hidden="true">2</span>
-          <div>
-            <h3>ムダ診断で、使ってない物が見つかる</h3>
-            <p>1件ずつ「先月使った？」に答えるだけ。やめる物にチェックを入れると、年間いくら浮くかが分かります。何度でも無料です。</p>
-          </div>
+        <div class="step">
+          <span class="step-num" aria-hidden="true">2</span>
+          <h2>合計が分かる</h2>
+          <p>年間・<wbr>毎月・<wbr>1日あたりを<wbr>一枚の<wbr>レシートで。</p>
         </div>
 
-        <div class="receipt-item">
-          <span class="receipt-no" aria-hidden="true">3</span>
-          <div>
-            <h3>解約の道案内と、解約レシート</h3>
-            <p>やめると決めたら、サービスごとの手順と公式の解約ページを案内します。「解約した！」を押すと、解約レシートができます。</p>
-          </div>
-        </div>
-
-        <div class="receipt-item">
-          <span class="receipt-no" aria-hidden="true">4</span>
-          <div>
-            <h3>給料日モードで、残すお金が分かる</h3>
-            <p>給料日を入れると、次の給料日までに口座に入れておく額を表示。土日祝なら前の平日で計算します。</p>
-            <p>カードの締め日・引き落とし日を入れると、カード払いもまとめて計算に入ります。</p>
-          </div>
-        </div>
-
-        <div class="receipt-item">
-          <span class="receipt-no" aria-hidden="true">5</span>
-          <div>
-            <h3>今月、きょうまで／これから</h3>
-            <p>ホームの合計カードの下に、今月の支払いを『きょうまで（支払日が来た分）』と『これから』に分けて表示します。銀行とはつながないので、支払日で数えています。</p>
-          </div>
+        <div class="step">
+          <span class="step-num" aria-hidden="true">3</span>
+          <h2>見直す</h2>
+          <p>ムダ診断で、<wbr>やめる<wbr>物と<wbr>浮く<wbr>額が<wbr>分かります。</p>
         </div>
 
       </div>
     </div>
   </section>
 
-  <section id="safety">
-    <div class="wrap">
-      <div class="section-head">
-        <h2>安心して使える</h2>
-      </div>
-      <div class="plain-grid">
-        <div class="plain-card">
-          <h3>データはiPhoneの中だけ</h3>
-          <p>アカウント登録もサーバーも不要です。登録した内容が外部に送られることはありません。</p>
-        </div>
-        <div class="plain-card">
-          <h3>ログインなし・広告なし</h3>
-          <p>使い方の追跡や解析もしていません。開いてすぐ、登録から始められます。</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  <section class="section" id="safety">
+    <div class="wrap two-col">
 
-  <section id="pro">
-    <div class="wrap">
-      <div class="section-head">
-        <h2>定額レシート Pro</h2>
-        <p class="section-lede">買い切り。月額はありません。</p>
+      <div>
+        <h2>データは、<br>iPhoneの中だけ。</h2>
+        <p>アカウント登録も<wbr>ログインも<wbr>不要です。<wbr>広告や、<wbr>利用状況の<wbr>追跡・<wbr>解析の<wbr>しくみも<wbr>使っていません。</p>
+        <p><a class="text-link" href="privacy.html">プライバシーポリシーを見る →</a></p>
       </div>
-      <div class="pro-card">
-        <p class="pro-title"><span class="pro-badge">Pro</span>登録を無制限に</p>
 
-        <ul class="pro-features">
-          <li>登録が無制限</li>
-          <li>給料日モードと、給料日の前の日のお知らせ</li>
-          <li>分割払い（12/36回・最後の金額）</li>
-          <li>節約の記録（月ごとのグラフ）</li>
+      <div>
+        <h2>Pro（買い切り）</h2>
+        <p>7件までは、<wbr>ずっと<wbr>無料です。<wbr>通知・<wbr>ダークモード・<wbr>バックアップも、<wbr>ずっと<wbr>無料です。</p>
+        <ul class="pro-list">
+          <li>登録が<wbr>無制限</li>
+          <li>給料日モードと、<wbr>給料日の<wbr>前の<wbr>日の<wbr>お知らせ</li>
+          <li>分割払い<wbr>（12/36回・<wbr>最後の<wbr>金額）</li>
+          <li>節約の<wbr>記録<wbr>（月ごとの<wbr>グラフ）</li>
         </ul>
-
-        <div class="price-line">
-          <span class="label">無料プラン（7件まで）</span>
-          <span class="leader" aria-hidden="true"></span>
-          <span class="amount">¥0</span>
+        <div class="price-fill">
+          <span>Pro（登録無制限）</span>
+          <b class="mono">¥1,000</b>
         </div>
-        <div class="price-line total">
-          <span class="label">Pro（買い切り）</span>
-          <span class="leader" aria-hidden="true"></span>
-          <span class="amount">¥1,000</span>
-        </div>
-
-        <div class="pro-note">
-          <p>無料でも7件まで登録できます（休止中・解約済みは数えません）。通知・ダークモード・バックアップは、ずっと無料です。</p>
-          <p>8件目を登録する時か、給料日モードをオンにした時に、Pro を30日間お試しできます。自動で課金されることはありません。終わってもデータと支払日の通知はそのまま残ります。</p>
-        </div>
+        <p class="price-note">8件目を<wbr>登録する<wbr>時か、<wbr>給料日モードを<wbr>オンに<wbr>した<wbr>時に、<wbr>Proを<wbr>30日間<wbr>お試しできます。<wbr>自動で<wbr>課金される<wbr>ことは<wbr>ありません。</p>
       </div>
+
+    </div>
+  </section>
+
+  <!--
+  アプリの画面（撮影モードのスクリーンショットが揃ったら、下のコメントを外して公開する）
+  本物の画面以外は置かない。
+
+  <section class="section" id="screens">
+    <div class="wrap">
+      <p class="section-kicker">アプリの画面</p>
+      <div class="app-shots">
+        <div class="shot-slot">ホーム画面</div>
+        <div class="shot-slot">ムダ診断</div>
+        <div class="shot-slot">給料日モード</div>
+      </div>
+      <div class="badge-slot">App Store バッジ</div>
+    </div>
+  </section>
+  -->
+
+  <section class="section section-center" id="support-link">
+    <div class="wrap">
+      <h2>使い方で<wbr>分からない<wbr>ことが<wbr>あれば</h2>
+      <p><a class="text-link" href="support.html">よくある質問を見る →</a></p>
     </div>
   </section>
 
